@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+        <title>klasse bilete</title>
+
+        <style>
+            body{
+                background-color:#343333;
+                text-align:center;
+            }
+            
+            #title{
+                color:#00ff73;
+                font-family: 'Roboto', sans-serif;
+                position:absolute;
+                font-size:100px;
+                top:20%;
+                left:31%;
+                
+            }
+            .forside{
+                border:none;
+                font-family: 'Roboto', sans-serif;
+                background-color:#304930;
+                color:white;
+                position:absolute;
+                top:49.5%;
+                left:1%;
+            }
+            .videosnutt:hover{
+                background-color:#00ff73;
+                color:black;
+            }
+
+            .videosnutt{
+                border:none;
+                font-family: 'Roboto', sans-serif;
+                background-color:#304930;
+                color:white;
+                position:absolute;
+                top:49.5%;
+                left:5.5%;
+            }
+            .forside:hover{
+                background-color:#00ff73;
+                color:black;
+            }
+            
+            .container {
+                width: 1420px;
+                height: 400px;
+                background-image: url("IMG_0709.jpeg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                border: 3px solid #304930
+            }
+            table{
+                margin: 0 auto;
+            }
+            img{
+                width:100px;
+                height:100px;
+                border-radius:50%;
+                border: 1.5px solid #00ff73;
+                margin:20px;
+                transition-duration:1s;
+            }
+            img:hover{
+                width:250px;
+                height:250px;
+                transition-duration:1s;
+            }
+            p{
+                font-family: 'Roboto', sans-serif;
+                color:white;
+            }
+        </style>
+    </head>
+
+    <body> 
+        <div class="container"></div>
+        <p id="title">Voss gymnas</p>
+        <button class="forside" onclick="window.location.href='index.html'">Forside</button>
+        <button class="videosnutt" onclick="window.location.href='videosnutt.html'">videosnutt</button>
+
+        
+        
+
+        <table>
+            <thead>
+
+            <th><img src="selfie.jpg"></th>
+            <th><img src="selfie Thomas.jpg"></th>
+            <th><img src="selfie magnar.png"></th>
+            <th><img src="selfie odin.jpg"></th>
+            <th><img src="selfie kari.jpg"></th>
+            <th><img src="selfie Inga.jpg"></th>
+            <th><img src="selfie arn.jpg"></th>
+            <th><img src="selfie agnete.jpg"></th>
+            
+        
+            </thead>
+            <td><p>Torstein</p></td>
+            <td><p>Thomas</p></td>
+            <td><p>Magnar</p></td>
+            <td><p>Inga</p></td>
+            <td><p>Kari</p></td>
+            <td><p>Odin</p></td>
+            <td><p>Arn</p></td>
+            <td><p>Agnete</p></td>
+            </table>
+          
+        
+    </body>
+</html>

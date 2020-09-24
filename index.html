@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+        <title>Voss gymnas</title>
+
+        <style>
+            body{
+                background-color:#343333;
+                text-align:center;
+            }
+            
+            #title{
+                color:#00ff73;
+                font-family: 'Roboto', sans-serif;
+                position:absolute;
+                font-size:100px;
+                top:20%;
+                left:31%;
+                
+            }
+            .videosnutt{
+                border:none;
+                font-family: 'Roboto', sans-serif;
+                background-color:#304930;
+                color:white;
+                position:absolute;
+                top:49.5%;
+                left:1%;
+            }
+            .videosnutt:hover{
+                background-color:#00ff73;
+                color:black;
+            }
+
+            .klasse{
+                border:none;
+                font-family: 'Roboto', sans-serif;
+                background-color:#304930;
+                color:white;
+                position:absolute;
+                top:49.5%;
+                left:7%;
+            }
+            .klasse:hover{
+                background-color:#00ff73;
+                color:black;
+            }
+
+            #om{
+                font-family: 'Roboto', sans-serif;
+                font-size:20px;
+                line-height: 170%;
+                color:white;
+                text-align:left;
+                max-width:700px;
+                margin-left:25px;
+            }
+            #skulen{
+                color:white;
+                font-family: 'Roboto', sans-serif;
+                font-size:50px;
+                text-align:left;
+                margin-left: 50px;
+            }
+            .container {
+                width: 1420px;
+                height: 400px;
+                background-image: url("IMG_0709.jpeg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                border: 3px solid #304930
+            }
+            #bilde2{
+                width:400px;
+                height:300px;
+                border: 3px solid #304930;
+                text-align:center;
+            }
+            #bilde3{
+                width:400px;
+                height:300px;
+                border: 3px solid #304930;
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body> 
+        <div class="container"></div>
+        <p id="title">Voss gymnas</p>
+        <button class="videosnutt" onclick="window.location.href='videosnutt.html'">Videosnutt</button>
+        <button class="klasse" onclick="window.location.href='klasse.html'">Klasse bilete</button>
+        <p id="skulen">Om skulen</p>
+        <p id="om">Voss gymnas er eit gymnas lokalisert på Voss i Vestland.
+             Det er omtrent 600 elevar fordelt på åtte ulike utdanningsprogram. 
+             Gymnaset opna offisielt opp i 2017, og er ny og moderne. Skulen ligg under eit minutt frå sentrum, og det er eit godt skulemiljø.</p>
+        <img src="IMG_0708.jpeg" id="bilde2">
+        <img src="IMG_0710.jpeg" id="bilde3">
+    </body>
+</html>
